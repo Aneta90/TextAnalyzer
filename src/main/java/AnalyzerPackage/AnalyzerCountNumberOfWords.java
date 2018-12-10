@@ -13,10 +13,4 @@ public class AnalyzerCountNumberOfWords implements Analyzer {
             return Math.toIntExact(sum);
         }
     }
-
-
-    public static void main(String[] args) {
-        AnalyzerCountNumberOfWords analyzerCountNumberOfWords = new AnalyzerCountNumberOfWords();
-        System.out.println(analyzerCountNumberOfWords.analyze("Ane anet,  - , ane"));
-    }
 }

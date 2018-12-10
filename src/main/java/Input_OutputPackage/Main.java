@@ -1,12 +1,13 @@
 package Input_OutputPackage;
 
 import AnalyzerPackage.*;
+import com.detectlanguage.errors.APIError;
 
 import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws APIError {
 
         ArrayList<Analyzer> analyzers = new ArrayList<>();
         analyzers.add(new AnalyzerCountNumberOfWords());
